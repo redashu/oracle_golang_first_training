@@ -15,5 +15,18 @@ go version go1.18 darwin/amd64
 
 ```
 
+## IDE for golang --
+
+### VScode + go extension 
+
+### Vscode Download URL 
+
+[download_vscode](https://code.visualstudio.com/download)
+
+### installing vscode again just few clicks 
+
+### INstall go extension 
+
+<img src="extgo.png">
 
 
