@@ -1,0 +1,3 @@
+## writing & understanding first code
+
+
