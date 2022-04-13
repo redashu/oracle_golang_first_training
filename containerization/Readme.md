@@ -62,3 +62,20 @@ ashuapp
 
 <img src="socket.png">
 
+
+### By default golang client support packages are not present for docker 
+
+### we can get golang packages from github 
+
+```
+go get  github.com/docker/docker/client
+```
+
+### list of images using go code 
+
+```
+go run . 
+Docker client is now ready !!
+sha256:9448a048f115d9c198ce8e6b25ce20769b461cdaedd09be3f713695eb76d08c6
+```
+
