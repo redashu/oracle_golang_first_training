@@ -55,3 +55,10 @@ docker  exec -it ashuc2  sh
 ashuapp
 /deploy # exit
 ```
+
+## GOlang for docker 
+
+### understanding docker socket concept for golang connection 
+
+<img src="socket.png">
+
