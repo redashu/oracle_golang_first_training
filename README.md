@@ -15,36 +15,23 @@
 ### build usage -- 
 
 ```
-go build 
-fire@ashutoshhs-MacBook-Air input_methods % ls
-input_methods   main.go
-fire@ashutoshhs-MacBook-Air input_methods % ./input_methods 
-enter anything : 
-hll
-thanks for your input :  hll
 
-[./input_methods]
-[]
-type of data []string 
-fire@ashutoshhs-MacBook-Air input_methods % ./input_methods  hello hi 900
-enter anything : 
-ddf
-thanks for your input :  ddf
+[ashu@ip-172-31-81-18 go_scode]$ GOOS="darwin" go build -o  maccode
+[ashu@ip-172-31-81-18 go_scode]$ ls
+Dockerfile  go.mod  linuxcode  maccode  main.go
+[ashu@ip-172-31-81-18 go_scode]$ ./maccode 
+bash: ./maccode: cannot execute binary file
+[ashu@ip-172-31-81-18 go_scode]$ GOOS="windows" go build -o  wincode
+[ashu@ip-172-31-81-18 go_scode]$ ls
+Dockerfile  go.mod  linuxcode  maccode  main.go  wincode
+[ashu@ip-172-31-81-18 go_scode]$ GOOS="windows" go build 
+[ashu@ip-172-31-81-18 go_scode]$ ls
+Dockerfile  go.mod  linuxcode  maccode  main.go  myapp.exe  wincode
+[ashu@ip-172-31-81-18 go_scode]$ GOOS="windows" go build -o  microsoftcode.exe 
+[ashu@ip-172-31-81-18 go_scode]$ cat go.mod 
+module myapp
 
-[./input_methods hello hi 900]
-[hello hi 900]
-type of data []string 
-fire@ashutoshhs-MacBook-Air input_methods % go build  -o  ashuapp1       
-fire@ashutoshhs-MacBook-Air input_methods % ls
-ashuapp1        input_methods   main.go
-fire@ashutoshhs-MacBook-Air input_methods % ./ashuapp1 
-enter anything : 
-hii
-thanks for your input :  hii
+go 1.18
 
-[./ashuapp1]
-[]
-type of data []string 
-fire@ashutoshhs-MacBook-Air input_methods % ./ashuapp1 hii hello
-enter anything : 
 ```
+
